@@ -1,35 +1,41 @@
 ---
-import { getCollection } from "astro:content";
+// import { getCollection } from "astro:content";
 import { SITE } from "@config";
 import Layout from "@layouts/Layout.astro";
 import Main from "@layouts/Main.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
-import Search from "@components/Search";
+// import Search from "@components/Search";
 
 // Retrieve all articles
-const posts = await getCollection("blog", ({ data }) => !data.draft);
+// const posts = await getCollection("blog", ({ data }) => !data.draft);
 
 // List of items to search in
-const searchList = posts.map(({ data }) => ({
-  title: data.title,
-  description: data.description,
-  data,
-}));
+// const searchList = posts.map(({ data }) => ({
+//  title: data.title,
+//  description: data.description,
+//  data,
+// }));
 ---
 
 <Layout title={`Search | ${SITE.title}`}>
   <Header activeNav="search" />
   <Main pageTitle="Search" pageDesc="Search any article ...">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"
+    ></script>
     <script type="text/javascript">
       algoliasearchNetlify({
-        appId: 'O4K7IX9Q8X',
-        apiKey: '269e843326452fbbd09b7c4413f1e246',
-        siteId: 'c58eadf7-d975-4b54-9f45-8004f08ecd1e',
-        branch: 'main',
-        selector: 'div#search',
+        appId: "O4K7IX9Q8X",
+        apiKey: "269e843326452fbbd09b7c4413f1e246",
+        siteId: "c58eadf7-d975-4b54-9f45-8004f08ecd1e",
+        branch: "main",
+        selector: "div#search",
       });
     </script>
     <div id="search"></div>
