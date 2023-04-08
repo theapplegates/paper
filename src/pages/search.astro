@@ -21,7 +21,18 @@ const searchList = posts.map(({ data }) => ({
 <Layout title={`Search | ${SITE.title}`}>
   <Header activeNav="search" />
   <Main pageTitle="Search" pageDesc="Search any article ...">
-    <Search client:load searchList={searchList} />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+    <script type="text/javascript">
+      algoliasearchNetlify({
+        appId: 'O4K7IX9Q8X',
+        apiKey: '269e843326452fbbd09b7c4413f1e246',
+        siteId: 'c58eadf7-d975-4b54-9f45-8004f08ecd1e',
+        branch: 'main',
+        selector: 'div#search',
+      });
+    </script>
+    <div id="search"></div>
   </Main>
   <Footer />
 </Layout>
