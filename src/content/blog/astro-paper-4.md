@@ -14,6 +14,18 @@ description: "AstroPaper v4: ensuring a smoother and more feature-rich blogging 
 Hello everyone! Wishing you a happy New Year 🎉 and all the best for 2024! We're excited to announce the release of AstroPaper v4, a significant update that introduces a range of new features, improvements, and bug fixes to elevate your blogging experience. A big thank you to all the contributors for their valuable input and efforts in making version 4 possible!
 
 
+
+<CldImage
+  src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1729800263/s7fasdllmivda6k73ll2.jxl"
+  width="3474"
+  height="2316"
+  sizes="(max-width: 3474px) 100vw,
+        (max-width: 2316px) 50vw,
+        33vw"
+  alt="<Description>"
+/>
+
+
 ![AstroPaper v4](@assets/images/AstroPaper-v4.png)
 
 ## Table of contents
