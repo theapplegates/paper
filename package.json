@@ -11,7 +11,7 @@
     "preview": "astro preview",
     "sync": "astro sync",
     "astro": "astro",
-    "cloudinary:breakpoints": "node scripts/cloudinary-breakpoints.mjs",
+    "cloudinary:breakpoints": "NODE_OPTIONS=--max-old-space-size=8192 node scripts/cloudinary-breakpoints.mjs",
     "format:check": "prettier --check .",
     "format": "prettier --write .",
     "lint": "eslint ."
