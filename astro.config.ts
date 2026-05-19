@@ -68,6 +68,11 @@ export default defineConfig({
         context: "client",
         optional: true,
       }),
+      PUBLIC_CLOUDINARY_CLOUD_NAME: envField.string({
+        access: "public",
+        context: "client",
+        optional: true,
+      }),
     },
   },
   experimental: {
