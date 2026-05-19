@@ -36,7 +36,7 @@ const breakpointRequest = {
   bytes_step: Number(process.env.CLOUDINARY_BREAKPOINT_BYTES_STEP || 20000),
   min_width: Number(process.env.CLOUDINARY_BREAKPOINT_MIN_WIDTH || 200),
   max_width: Number(process.env.CLOUDINARY_BREAKPOINT_MAX_WIDTH || 2000),
-  max_images: Number(process.env.CLOUDINARY_BREAKPOINT_MAX_IMAGES || 12),
+  max_images: Number(process.env.CLOUDINARY_BREAKPOINT_MAX_IMAGES || 10),
 };
 
 const readExistingBreakpoints = async () => {
