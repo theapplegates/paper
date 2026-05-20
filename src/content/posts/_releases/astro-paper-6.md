@@ -70,7 +70,7 @@ Font configuration has graduated from `experimental.fonts` to a top-level `fonts
 export default defineConfig({
   fonts: [
     {
-      name: "Google Sans Code",
+      name: "Geist",
       cssVariable: "--font-google-sans-code",
       provider: fontProviders.google(),
       weights: [300, 400, 500, 600, 700],

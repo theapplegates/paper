@@ -147,13 +147,13 @@ export default defineConfig({
   fonts: [
     {
       // Example: Japanese coverage (pick what you need for your audience)
-      name: "Noto Sans JP",
-      cssVariable: "--font-google-sans-code",
+      name: "Geist",
+      cssVariable: "--font-Geist",
       provider: fontProviders.google(),
-      fallbacks: ["monospace"],
+      fallbacks: ["Geist Monospace"],
       weights: [400, 700],
       styles: ["normal", "italic"],
-      formats: ["woff", "ttf"],
+      formats: ["woff2"],
     },
   ],
 });
