@@ -12,7 +12,45 @@ tags:
   - docs
 description: Comment function on a static blog hosted on GitHub Pages with Giscus.
 ---
+<picture>
+  <source
+    type="image/jxl"
+    srcset="
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jxl/c_scale,w_596/v1779287761/breakpoints/yxifx9yzjvfvxv5pvc8a.jxl 596w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jxl/c_scale,w_1099/v1779287761/breakpoints/yxifx9yzjvfvxv5pvc8a.jxl 1099w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jxl/c_scale,w_1103/v1779287761/breakpoints/yxifx9yzjvfvxv5pvc8a.jxl 1103w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jxl/c_scale,w_1411/v1779287761/breakpoints/yxifx9yzjvfvxv5pvc8a.jxl 1411w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jxl/c_scale,w_1440/v1779287761/breakpoints/yxifx9yzjvfvxv5pvc8a.jxl 1440w"
+    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, min(100vw, 1440px)"
+  />
 
+  <source
+    type="image/avif"
+    srcset="
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_avif/c_scale,w_596/v1779287761/breakpoints/yxifx9yzjvfvxv5pvc8a.avif 596w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_avif/c_scale,w_1099/v1779287761/breakpoints/yxifx9yzjvfvxv5pvc8a.avif 1099w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_avif/c_scale,w_1103/v1779287761/breakpoints/yxifx9yzjvfvxv5pvc8a.avif 1103w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_avif/c_scale,w_1411/v1779287761/breakpoints/yxifx9yzjvfvxv5pvc8a.avif 1411w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_avif/c_scale,w_1440/v1779287761/breakpoints/yxifx9yzjvfvxv5pvc8a.avif 1440w"
+    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, min(100vw, 1440px)"
+  />
+
+  <img
+    src="https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_webp/c_scale,w_800/v1779287761/breakpoints/yxifx9yzjvfvxv5pvc8a.webp"
+    srcset="
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_webp/c_scale,w_596/v1779287761/breakpoints/yxifx9yzjvfvxv5pvc8a.webp 596w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_webp/c_scale,w_1099/v1779287761/breakpoints/yxifx9yzjvfvxv5pvc8a.webp 1099w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_webp/c_scale,w_1103/v1779287761/breakpoints/yxifx9yzjvfvxv5pvc8a.webp 1103w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_webp/c_scale,w_1411/v1779287761/breakpoints/yxifx9yzjvfvxv5pvc8a.webp 1411w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_webp/c_scale,w_1440/v1779287761/breakpoints/yxifx9yzjvfvxv5pvc8a.webp 1440w"
+    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, min(100vw, 1440px)"
+    alt="Describe your image content here"
+    loading="lazy"
+    width="1440"
+    height="810"
+  />
+</picture>
+Brunch with Dad.
 Hosting a thin static blog on a platform like [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) has numerous advantages, but also takes away some interactivity. Fortunately, [Giscus](https://giscus.app/) exists and offers a way to embed user comments on static sites.
 
 ## Table of contents

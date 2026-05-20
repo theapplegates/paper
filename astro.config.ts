@@ -52,13 +52,129 @@ export default defineConfig({
   },
   fonts: [
     {
-      name: "Inter",
-      cssVariable: "--font-inter",
-      provider: fontProviders.google(),
+      name: "Wotfard",
+      cssVariable: "--font-wotfard",
+      provider: fontProviders.local(),
       fallbacks: ["sans-serif"],
       weights: [100, 200, 300, 400, 500, 600, 700],
       styles: ["normal", "italic"],
       formats: ["woff2", "ttf"],
+      options: {
+        variants: [
+          {
+            weight: 100,
+            style: "normal",
+            src: [
+              "./src/assets/fonts/Wotfard-Roman/woff2/wotfard-thin-webfont.woff2",
+              "./src/assets/fonts/Wotfard-Roman/ttf/wotfard-thin-webfont.ttf",
+            ],
+          },
+          {
+            weight: 200,
+            style: "normal",
+            src: [
+              "./src/assets/fonts/Wotfard-Roman/woff2/wotfard-extralight-webfont.woff2",
+              "./src/assets/fonts/Wotfard-Roman/ttf/wotfard-extralight-webfont.ttf",
+            ],
+          },
+          {
+            weight: 300,
+            style: "normal",
+            src: [
+              "./src/assets/fonts/Wotfard-Roman/woff2/wotfard-light-webfont.woff2",
+              "./src/assets/fonts/Wotfard-Roman/ttf/wotfard-light-webfont.ttf",
+            ],
+          },
+          {
+            weight: 400,
+            style: "normal",
+            src: [
+              "./src/assets/fonts/Wotfard-Roman/woff2/wotfard-regular-webfont.woff2",
+              "./src/assets/fonts/Wotfard-Roman/ttf/wotfard-regular-webfont.ttf",
+            ],
+          },
+          {
+            weight: 500,
+            style: "normal",
+            src: [
+              "./src/assets/fonts/Wotfard-Roman/woff2/wotfard-medium-webfont.woff2",
+              "./src/assets/fonts/Wotfard-Roman/ttf/wotfard-medium-webfont.ttf",
+            ],
+          },
+          {
+            weight: 600,
+            style: "normal",
+            src: [
+              "./src/assets/fonts/Wotfard-Roman/woff2/wotfard-semibold-webfont.woff2",
+              "./src/assets/fonts/Wotfard-Roman/ttf/wotfard-semibold-webfont.ttf",
+            ],
+          },
+          {
+            weight: 700,
+            style: "normal",
+            src: [
+              "./src/assets/fonts/Wotfard-Roman/woff2/wotfard-bold-webfont.woff2",
+              "./src/assets/fonts/Wotfard-Roman/ttf/wotfard-bold-webfont.ttf",
+            ],
+          },
+          {
+            weight: 100,
+            style: "italic",
+            src: [
+              "./src/assets/fonts/Wotfard-Italic/woff2/wotfard-thinitalic-webfont.woff2",
+              "./src/assets/fonts/Wotfard-Italic/ttf/wotfard-thinitalic-webfont.ttf",
+            ],
+          },
+          {
+            weight: 200,
+            style: "italic",
+            src: [
+              "./src/assets/fonts/Wotfard-Italic/woff2/wotfard-extralightitalic-webfont.woff2",
+              "./src/assets/fonts/Wotfard-Italic/ttf/wotfard-extralightitalic-webfont.ttf",
+            ],
+          },
+          {
+            weight: 300,
+            style: "italic",
+            src: [
+              "./src/assets/fonts/Wotfard-Italic/woff2/wotfard-lightitalic-webfont.woff2",
+              "./src/assets/fonts/Wotfard-Italic/ttf/wotfard-lightitalic-webfont.ttf",
+            ],
+          },
+          {
+            weight: 400,
+            style: "italic",
+            src: [
+              "./src/assets/fonts/Wotfard-Italic/woff2/wotfard-regularitalic-webfont.woff2",
+              "./src/assets/fonts/Wotfard-Italic/ttf/wotfard-regularitalic-webfont.ttf",
+            ],
+          },
+          {
+            weight: 500,
+            style: "italic",
+            src: [
+              "./src/assets/fonts/Wotfard-Italic/woff2/wotfard-mediumitalic-webfont.woff2",
+              "./src/assets/fonts/Wotfard-Italic/ttf/wotfard-mediumitalic-webfont.ttf",
+            ],
+          },
+          {
+            weight: 600,
+            style: "italic",
+            src: [
+              "./src/assets/fonts/Wotfard-Italic/woff2/wotfard-semibolditalic-webfont.woff2",
+              "./src/assets/fonts/Wotfard-Italic/ttf/wotfard-semibolditalic-webfont.ttf",
+            ],
+          },
+          {
+            weight: 700,
+            style: "italic",
+            src: [
+              "./src/assets/fonts/Wotfard-Italic/woff2/wotfard-bolditalic-webfont.woff2",
+              "./src/assets/fonts/Wotfard-Italic/ttf/wotfard-bolditalic-webfont.ttf",
+            ],
+          },
+        ],
+      },
     },
   ],
   env: {
